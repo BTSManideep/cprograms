@@ -9,12 +9,12 @@ void main()
     d=(b*b)-4*a*c;
     if(d>0)
     {
-        printf("the roots are real and distent");
-        r1=-b+sqrt(d)/2*a;
-        r2=-b-sqrt(d)/2*a;
+        printf("the roots are real and distent\n");
+        r1=(-b+sqrt(d))/2*a;
+        r2=(-b-sqrt(d))/2*a;
         printf("r1=%f\nr2=%f",r1,r2);
     }
-    if(d<0)
+    else if(d<0)
     {
         printf("roots are imaginary");
     }
